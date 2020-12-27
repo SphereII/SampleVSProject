@@ -1,0 +1,9 @@
+﻿<configs>
+	<append xpath="/blocks">
+		<block name="SampleProjectBlock">
+			<property name="Extends" value="woodMaster"/>
+			<property name="Class" value="SampleBlock, SampleProject"/>
+			<property name="Path" value="solid"/>
+		</block>
+	</append>
+</configs>
