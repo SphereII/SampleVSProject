@@ -1,14 +1,12 @@
-# DMTBridgeLoaderPlugin
-A BepInEx plugin to allow DMT-based mods to load
+# Sample Visual Studio Project
 
-
-- Copy BepInEx, doorstop_libs, run_bepinex, doorstop_config.ini, and winhttp.dll to the Game's root folder.
-
+Copy the Deployment folder contents into your 7 Days To Die Folder.
 
 For windows, run 7daystodie.exe
-
 For linux/mac, run   run_bepinex.sh
 
 
+A SampleVSProject modlet already exists, and compiled.
 
-For compiling, use Visual Studio 2017, and the sln in ProjectFiles.  The generated plugin goes into BepInEx/plugins
+
+SampleVSProject is created using Visual Studio 2017 Community edition. You may change and rebuild it, copying the DLL into the Modlet's folder.
